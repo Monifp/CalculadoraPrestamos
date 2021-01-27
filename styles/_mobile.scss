@@ -1,0 +1,56 @@
+
+@import "./_variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  body {
+    font-family: $font-primary;
+    max-width: 1438px;
+    min-width: 320px;
+    margin: auto;
+    background-color: $primary-background-color;
+  }
+  
+
+    
+.container {
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 10px; 
+}    
+
+.title {
+    background-color: $primary-background-color;
+}
+
+h2  {
+  text-align: center;
+}
+
+h4  {
+  text-align: center;
+  background-color: $accent-color;
+}
+
+
+.interest{
+  background-color: $dark-primary-color;  
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+}
+
+.form {
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+}
+
