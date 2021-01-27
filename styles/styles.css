@@ -1,0 +1,90 @@
+@media (min-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  body {
+    font-family: "IBM Plex Mono", monospace;
+    max-width: 1438px;
+    min-width: 320px;
+    margin: auto;
+    background-color: #D1C4E9;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .title {
+    background-color: #D1C4E9;
+  }
+  h2 {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+    background-color: #009688;
+  }
+  .interest {
+    background-color: #512DA8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .form {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  body {
+    font-family: "IBM Plex Mono", monospace;
+    max-width: 1438px;
+    min-width: 320px;
+    margin: auto;
+    background-color: #D1C4E9;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .title {
+    background-color: #D1C4E9;
+  }
+  h2 {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+    background-color: #009688;
+  }
+  .interest {
+    background-color: #512DA8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .form {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
