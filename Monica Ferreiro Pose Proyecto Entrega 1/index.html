@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Préstamos Personales</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="/scripts/script.js"> </script>
+</head>
+
+<body>
+<div class="container">    
+<div class="title">
+    <h2>Simulador de Préstamos Personales</h2>
+</div>
+<div personaldata>
+   <p>Ingrese su nombre  <input type="text" id="name" name="nombre"></p>
+   <p> Ingrese su sueldo <input type="number" id="wage" name="sueldo"></p>
+   <p> Ingrese su edad <input type="number" id="age" name="edad"></p>
+    
+<div class="interest">
+    <h4>Plazo en meses</h4>
+    <table id="tablaIntereses">
+
+        <tr>
+			<th>Cantidad de Meses</th>
+			<th>Tasa de Interes</th>
+		</tr>
+		<tr>
+			<td>12 meses</td>
+            <td value="8">8%</td>
+        </tr>    
+        <tr>
+			<td>24 meses</td>
+            <td value="12">12%</td>
+        </tr>    
+        <tr>
+			<td>36 meses</td>
+            <td value="15">15%</td>
+        </tr>          
+        <tr>
+			<td>48 meses</td>
+            <td value="18">18%</td>
+        </tr>    
+        <tr>
+			<td>60 meses</td>
+            <td value="21">21%</td>
+        </tr>    
+        <tr>
+			<td>72 meses</td>
+            <td value="72">28%</td>
+        </tr>          
+    </table>
+    <br/>
+    <hr>
+</div> 
+<div class='form'>
+    <form>
+
+        Cuánto dinero necesitás? <input id="dineroPrestado" type="number"/>
+
+        <p>En cuántos meses querés devolverlo?
+            <select id="plazoPago">
+                <option value="12">12 meses</option>
+                <option value="24">24 meses</option>
+                <option value="36">36 meses</option>
+                <option value="48">48 meses</option>
+                <option value="60">60 meses</option>
+                <option value="72">72 meses</option>
+            </select>
+        </p>
+
+        <input type="button" value="Realizar consulta" onclick="monthlyInstallmentsCalc()"/>
+       
+    </form>
+    <br/>
+</div>
+<div class="result">  
+    <p><span id="resultado"> </span></p>
+    <p><span id="totalDevuelto"></span></p>
+</div>
+</div>
+</body>
+
+</html>

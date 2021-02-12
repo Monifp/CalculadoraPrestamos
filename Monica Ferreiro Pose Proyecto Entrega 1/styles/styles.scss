@@ -1,0 +1,9 @@
+
+@import "./_variables.scss";
+@media (min-width: 320px) {
+    @import './_mobile.scss';
+}
+
+@media (min-width: 768px) {
+    @import './_desktop.scss';}
+    
